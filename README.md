@@ -28,7 +28,7 @@ traditional programming language like Python by working with the web3.py package
 1. Clone this repo
 
 ```
-git clone https://github.com/PatrickAlphaC/web3_py_simple_storage
+git clone https://github.com/Rubenadhoute/Simple_storage_web3.git
 cd web3_py_simple_storage
 ```
 
@@ -49,17 +49,9 @@ my_address = "0x94B806BB0e455576ea46193D9DBbB08d1cc57Da9"
 private_key = os.getenv("PRIVATE_KEY")
 ```
 
-To set your private key as an environment variable, run `export PRIVATE_KEY=0xasdfasdfasfdasf`. If you're confused on how environment variables work, just set:
+5. Set your private key as an environment variable by running `export PRIVATE_KEY=0xasdfasdfasfdasf` and run `python deploy.py`
 
-```python
-private_key = "0xYOUR_KEY_HERE"
-```
 
-5. Run
-
-```
-python deploy.py
-```
 
 To run on a testnet, just change these variables to whatever testnet you want to work with:
 
