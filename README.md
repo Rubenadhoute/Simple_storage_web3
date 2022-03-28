@@ -19,8 +19,12 @@ traditional programming language like Python by working with the web3.py package
 
 4. Submit a transaction that deploys the contract on a testnet (Rinkeby) (via a RINKEBY_RPC_URL= https://infura.io/)
 
-5. Ability to retrieve my contract on EtherScan - Rinkeby Testnet Network - 0xF40E321C58166b4Af9a778bc3B640b7F7A1a309a - most exciting part !
+5. Ability to retrieve my contract on EtherScan - Rinkeby Testnet Network - 0xF40E321C58166b4Af9a778bc3B640b7F7A1a309a - most exciting part :
 
+
+![Screen Shot 2022-03-28 at 11 24 35](https://user-images.githubusercontent.com/68856635/160357427-7037f32d-d2ab-473f-95cf-847e613b4e1a.png)
+
+![Screen Shot 2022-03-28 at 11 25 17](https://user-images.githubusercontent.com/68856635/160357467-934ab9db-a220-4f0f-a252-c6bfceb53c85.png)
 
 
 # Steps to reproduce 
