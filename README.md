@@ -1,23 +1,29 @@
 
 
+# Web3.py Simple Storage
+
+After working on Remix to start my start contract and solidity development journey, I understood the limitations of this IDE.
+
+In order for me to deploy test and automate everything about my smart contract development cycle I need to connect my Solidity work with a more 
+traditional programming language like Python by working with the web3.py package.
 
 
 
+## Key Learnings
+
+1. Limitations of Remix (hard integration with other parts of a project/doesn't have Python)
+
+2. Working with web3.py
+
+3. Submit a transaction that deploys the contract on a local ganache chain (https://www.trufflesuite.com/ganache)
+
+4. Submit a transaction that deploys the contract on a testnet (Rinkeby) (via a RINKEBY_RPC_URL= https://infura.io/)
+
+5. Ability to retrieve my contract on EtherScan - Rinkeby Testnet Network - 0xF40E321C58166b4Af9a778bc3B640b7F7A1a309a - most exciting part !
 
 
 
-
-
-
-
-
-
-
-### Steps to reproduce ###
-
-
-
-
+# Steps to reproduce 
 
 1. Clone this repo
 
@@ -65,3 +71,7 @@ private_key = os.getenv("PRIVATE_KEY")
 ```
 
 And make sure you have testnet ETH for whatever testnet you're on!
+
+## License
+
+This project is licensed under the [MIT license](LICENSE).
