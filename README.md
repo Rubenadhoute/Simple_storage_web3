@@ -4,7 +4,7 @@
 
 After working on Remix to start my start contract and solidity development journey, I understood the limitations of this IDE.
 
-In order for me to deploy test and automate everything about my smart contract development cycle I need to connect my Solidity work with a more 
+In order for me to deploy test and automate everything about my smart contract development cycle I decided to connect my Solidity work with a more 
 traditional programming language like Python by working with the web3.py package.
 
 
