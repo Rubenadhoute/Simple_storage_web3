@@ -9,13 +9,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+print("Installing...")
+install_solc("0.6.0")
 
 with open("./SimpleStorage.sol", "r") as file:
     simple_storage_file = file.read()
 
-# We add these two lines that we forgot from the video!
-print("Installing...")
-install_solc("0.6.0")
 
 # Solidity source code - compiling the simple storage contract
 compiled_sol = compile_standard(
@@ -46,6 +45,8 @@ abi = json.loads(
     compiled_sol["contracts"]["SimpleStorage.sol"]["SimpleStorage"]["metadata"]
 )["output"]["abi"]
 
+
+# connecting to testnet
 w3 = Web3(Web3.HTTPProvider(
     "https://rinkeby.infura.io/v3/c69d2332af9e48abbdcb34d5b64874c7"))
 chain_id = 4
@@ -55,7 +56,6 @@ chain_id = 4
 #chain_id = 1337
 my_address = "0x891BF659f629855E1a4043d10960c370E9d0c6f7"
 private_key = os.getenv("PRIVATE_KEY")
-print(private_key)
 
 # Create the contract in Python
 SimpleStorage = w3.eth.contract(abi=abi, bytecode=bytecode)
